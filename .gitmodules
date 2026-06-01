@@ -1,0 +1,3 @@
+[submodule "external/sovereignforwardone-submodule"]
+	path = external/sovereignforwardone-submodule
+	url = https://github.com/pandafoxxx600/sovereignforwardone.git
