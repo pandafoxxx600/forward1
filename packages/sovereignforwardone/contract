@@ -1,0 +1,15 @@
+# sovereignforwardone integration contract
+
+Package: sovereignforwardone
+Upstream: https://github.com/pandafoxxx600/sovereignforwardone.git
+Submodule path: external/sovereignforwardone-submodule
+Snapshot path: packages/sovereignforwardone
+
+Purpose:
+- Keep a monorepo-local integration contract for the sovereignforwardone package boundary.
+- Document the upstream source repository and the intended package/submodule relationship.
+- Provide a stable file for future validation or CI checks as the package integration matures.
+
+Current status:
+- The upstream repository is configured as a submodule in `.gitmodules`.
+- This package directory is ready for snapshot content to be synchronized from the submodule.

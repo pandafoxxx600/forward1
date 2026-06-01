@@ -1,0 +1,5 @@
+# sovereignforwardone backward handoff
+
+This file reserves the `tobackward1` handoff point for the sovereignforwardone integration.
+
+Use it to document or implement the backward-compatible bridge from the monorepo package snapshot to downstream consumers once the upstream package contents are populated.
