@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Sovereign AllSpark Seal for Amanda King</title>
+  <desc id="desc">A cosmic geometric seal with concentric circles, orbit paths, a radiant central star, balance triangles, and inscriptions honoring Amanda King's AllSpark of Choice.</desc>
+  <defs>
+    <radialGradient id="cosmicGlow" cx="50%" cy="48%" r="58%">
+      <stop offset="0%" stop-color="#fff7c2"/>
+      <stop offset="22%" stop-color="#ffd166"/>
+      <stop offset="52%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#071026"/>
+    </radialGradient>
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5b7"/>
+      <stop offset="45%" stop-color="#e7b84f"/>
+      <stop offset="100%" stop-color="#fff0a3"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="topArc" d="M 215 600 A 385 385 0 0 1 985 600"/>
+    <path id="bottomArc" d="M 985 600 A 385 385 0 0 1 215 600"/>
+  </defs>
+
+  <rect width="1200" height="1200" fill="#071026"/>
+  <circle cx="600" cy="600" r="535" fill="url(#cosmicGlow)" opacity="0.92"/>
+  <circle cx="600" cy="600" r="505" fill="none" stroke="url(#goldLine)" stroke-width="10"/>
+  <circle cx="600" cy="600" r="455" fill="none" stroke="#f7d774" stroke-width="3" stroke-dasharray="10 20" opacity="0.9"/>
+  <circle cx="600" cy="600" r="375" fill="#071026" opacity="0.68" stroke="#d8b44d" stroke-width="4"/>
+
+  <g fill="#fff7cf" opacity="0.95">
+    <circle cx="210" cy="250" r="4"/>
+    <circle cx="930" cy="255" r="3"/>
+    <circle cx="1015" cy="765" r="4"/>
+    <circle cx="275" cy="890" r="3"/>
+    <circle cx="420" cy="170" r="2.5"/>
+    <circle cx="780" cy="1020" r="3"/>
+    <circle cx="1035" cy="430" r="2.5"/>
+    <circle cx="145" cy="610" r="3"/>
+  </g>
+
+  <g fill="none" stroke="#a8f7ff" stroke-width="3" opacity="0.76">
+    <ellipse cx="600" cy="600" rx="365" ry="120" transform="rotate(18 600 600)"/>
+    <ellipse cx="600" cy="600" rx="365" ry="120" transform="rotate(-18 600 600)"/>
+    <ellipse cx="600" cy="600" rx="125" ry="365" transform="rotate(48 600 600)"/>
+  </g>
+
+  <g stroke="url(#goldLine)" stroke-width="5" fill="none" opacity="0.9">
+    <path d="M600 225 L910 795 L290 795 Z"/>
+    <path d="M600 975 L290 405 L910 405 Z"/>
+    <line x1="600" y1="225" x2="600" y2="975" opacity="0.65"/>
+    <line x1="255" y1="600" x2="945" y2="600" opacity="0.65"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <path d="M600 360 L647 535 L830 535 L680 638 L735 815 L600 705 L465 815 L520 638 L370 535 L553 535 Z" fill="#fff3a6" stroke="#ffffff" stroke-width="5"/>
+    <circle cx="600" cy="600" r="78" fill="#ffffff" opacity="0.95"/>
+    <path d="M600 505 L627 573 L700 600 L627 627 L600 695 L573 627 L500 600 L573 573 Z" fill="#6d28d9" stroke="#ffd166" stroke-width="5"/>
+  </g>
+
+  <g font-family="Cinzel, Georgia, serif" text-anchor="middle" fill="#fff7cf">
+    <text font-size="46" letter-spacing="7">
+      <textPath href="#topArc" startOffset="50%">AMANDA KING · ALLSPARK OF CHOICE</textPath>
+    </text>
+    <text font-size="31" letter-spacing="5">
+      <textPath href="#bottomArc" startOffset="50%">MATH-DIVINE CREATION ORDER · FORWARD ONE</textPath>
+    </text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" fill="#071026">
+    <rect x="392" y="912" width="416" height="58" rx="29" fill="#fff0a3" opacity="0.92"/>
+    <text x="600" y="950" font-size="24" font-weight="700" letter-spacing="3">ORDER · BALANCE · CREATION</text>
+  </g>
+
+  <g stroke="#fff7cf" stroke-width="3" opacity="0.9">
+    <line x1="600" y1="126" x2="600" y2="177"/>
+    <line x1="600" y1="1023" x2="600" y2="1074"/>
+    <line x1="126" y1="600" x2="177" y2="600"/>
+    <line x1="1023" y1="600" x2="1074" y2="600"/>
+  </g>
+</svg>
